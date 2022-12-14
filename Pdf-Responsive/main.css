@@ -1,0 +1,93 @@
+*{ 
+    font-family: 'Roboto Condensed', sans-serif;  
+}
+body , ul li {
+    
+    margin: 0;
+    padding: 0;
+}
+
+
+p, li, h1, h2, h3, h4{
+    
+    color:darkslategrey;
+}
+
+body{
+    background:white;
+}
+
+.wrapper{
+    width: 96%;
+    max-width: 1200px;
+    margin:0 auto;
+    padding: 0 2%;
+}
+
+header{
+    background: white;
+    padding: 20 0;
+}
+
+header h1{
+    margin: 35px 0px 0px 30px;
+    text-indent: -10000px;
+    background: url(Images/logo1.png)no-repeat;
+    width: 130px;
+    float: left;
+}
+
+header nav{
+    float: right;
+}
+header:after{
+    display:block;
+    content: "";
+    clear: both;
+}
+
+header h2{
+    margin: 0;
+    text-indent: -10000px;
+}
+
+header nav li{
+    list-style-type: none;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    
+}
+
+header nav li .btn{
+    background-color:coral;
+    margin: 3px 3px;
+    border-radius: 4px;
+    color: white;
+    padding: 4px 12px;
+    text-align: center;
+    border: none;
+    display: inline-block;
+        
+}
+
+header nav li a{
+    text-decoration: none;
+    color: darkslategrey;
+    text-transform:capitalize;
+    font-weight: bold;
+}
+
+header nav a.current{
+    color: darkorange;
+}
+
+.home h1{
+    font-size: 70px;
+    font-weight:lighter;
+    color: #fe8e0f;
+}
+
+section .home img{
+    width:10%;
+}
